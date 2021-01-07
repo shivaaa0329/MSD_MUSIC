@@ -63,7 +63,7 @@ export default class PlayScreen extends React.Component {
                     <div className="playhead">
                         <h1 className="playheadplay">Play</h1>
                         <Link to="../">
-                            <img alt="Musicder" src="../img/t-logo.svg" className="playlogobtn" width="60" height="60" />
+                            <img src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" alt="MSD_MUSIC" width="60" height="60" />
                         </Link>
                     </div>
                     <div className="playcontent"><br /><br />
@@ -83,10 +83,10 @@ export default class PlayScreen extends React.Component {
                     </div>
                     <div className="footer">
                         <h1 className="playlogo">MUSICDER</h1> <br />
-                        <a className="atextdec" href={`https://github.com/cachecleanerjeet`}>
-                            <p className="playparagone" >An Open Source Project by Tuhin</p>
+                        <a className="atextdec" href={`https://telegram.dog/msd_movies`}>
+                            <p className="playparagone" >This Msd Music is provided by MSD MOVIES</p>
                         </a><br />
-                        <a href={`https://github.com/cachecleanerjeet/Musicder`}>
+                        <a href={`https://github.com/shivaaa0329/MSD_MUSIC`}>
                             <img alt="Github" className="center" src="../img/github-black.svg" width="30" height="30" /><br />
                         </a>
                     </div>
