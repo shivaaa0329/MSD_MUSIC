@@ -58,13 +58,13 @@ export default class SearchScreen extends React.Component {
                     ))}
 
                     <div className="footerdiv">
-                        <img alt="Musicder" className="center" src="./img/logo.png" width="230" height="92" />
-                        <a className="atextdec" href={`https://github.com/cachecleanerjeet`}>
-                            <p className="paragone" >An Open Source Project by Tuhin</p>
+                        <img src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" alt="MSD MUSIC" width="230" height="92" />
+                        <a className="atextdec" href={`https://telegram.dog/msd_movies`}>
+                            <p className="paragone" >This MSD Music services are provided by MSD MOVIES</p>
                         </a><br />
-                        <a href={`https://github.com/cachecleanerjeet/Musicder`}>
-                            <img alt="Github" className="center" src="./img/github-white.svg" width="30" height="30" /><br />
-                        </a>
+                          <a href="https://telegram.dog/msd_movies">
+    <img alt="Telegram" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/telegram.svg" />
+  </a>
                     </div>
                 </div>
             )
