@@ -13,7 +13,7 @@ export default class MainScreen extends React.Component {
     }
 
     componentDidMount() {
-        document.title = "Musicder | Listen or Download Music For Free"
+        document.title = "MSD Music | Listen or Download Music For Free"
     }
 
     render() {
@@ -21,6 +21,7 @@ export default class MainScreen extends React.Component {
             <div>
                 <h1 className="heading">Hello There 👋</h1>
                 <h2 className="headingbelow">Type what do you want to Listen & Press Search</h2>
+                <h1 className="heading">made with :heart: by shivaaa029</h1>
                 <div className="formdivt">
                     <form onSubmit={this.mySubmitHandler}>
                         <div className="inner-form">
