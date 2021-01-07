@@ -62,11 +62,11 @@ export default class PlayScreen extends React.Component {
                     </div>
 
                     <div className="dldfooter">
-                        <h1 className="playlogo">MUSICDER</h1>
-                        <a className="atextdec" href={`https://github.com/cachecleanerjeet`}>
-                            <p className="playparagone" >An Open Source Project by Tuhin</p>
+                        <h1 className="playlogo">MSD Music</h1>
+                        <a className="atextdec" href={`https://telegram.dog/msd_movies`}>
+                            <p className="playparagone" >This MSD Music services is provided by MSD MOVIES</p>
                         </a>
-                        <a href={`https://github.com/cachecleanerjeet/Musicder`}>
+                        <a href={`https://github.com/shivaaa0329/MSD_MUSIC`}>
                             <img alt="Github" className="center" src="../img/github-black.svg" width="30" height="30" />
                         </a>
                     </div>
