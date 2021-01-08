@@ -13,7 +13,7 @@ export default class MainScreen extends React.Component {
     }
 
     componentDidMount() {
-        document.title = "MSD Music | Listen or Download Music For Free"
+        document.title = "MSD Music | Listen or Download any High Quality Music For Free"
     }
 
     render() {
@@ -21,7 +21,7 @@ export default class MainScreen extends React.Component {
             <div>
                 <h1 className="heading">Hello There 👋</h1>
                 <h2 className="headingbelow">Type what do you want to Listen & Press Search</h2>
-                <h1 className="heading">made by Shivaaa029 with ❣️</h1>
+                <h3 className="headingbelow">made by Shivaaa029 with ❣️</h3>
                 <div className="formdivt">
                     <form onSubmit={this.mySubmitHandler}>
                         <div className="inner-form">
@@ -31,7 +31,7 @@ export default class MainScreen extends React.Component {
                                         <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
                                     </svg>
                                 </div>
-                                <input type="text" placeholder="Search for Songs, Albums" onChange={this.myChangeHandler} />
+                                <input type="text" placeholder="Search for Songs, Albums with Movie Name" onChange={this.myChangeHandler} />
                             </div>
                             <div className="input-field second-wrap">
                                 <Link to={`search?query=${this.state.searchQuery}`}>
