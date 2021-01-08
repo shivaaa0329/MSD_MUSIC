@@ -63,7 +63,7 @@ export default class PlayScreen extends React.Component {
                     <div className="playhead">
                         <h1 className="playheadplay">Play</h1>
                         <Link to="../">
-                            <img alt="MSD Music" src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" className="playlogobtn" width="70" height="70" />
+                            <img alt="MSD Music" src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" className="playlogobtn" width="80" height="80" />
                         </Link>
                     </div>
                     <div className="playcontent"><br /><br />
