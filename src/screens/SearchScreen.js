@@ -58,13 +58,13 @@ export default class SearchScreen extends React.Component {
                     ))}
 
                     <div className="footerdiv">
-                        <img src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" alt="MSD MUSIC" width="92" height="92" />
-                        <a className="atextdec" href={`https://telegram.dog/msd_movies`}>
-                            <p className="paragone" >This MSD Music services are provided by MSD MOVIES</p>
+                        <img alt="MSD Music" className="center" src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" width="92" height="92" />
+                        <a className="atextdec" href={`https://msd-music.vercel.app/`}>
+                            <p className="paragone" >This MSD Music services are provided by MSD Movies</p>
                         </a><br />
-                          <a href="https://telegram.dog/msd_movies">
-    <img alt="Telegram" width="30px" src="https://telegra.ph/file/37bb8d5dbb567a207e036.png" />
-  </a>
+                        <a href={`https://telegram.dog/msd_movies`}>
+                            <img alt="Telegram" className="center" src="https://telegra.ph/file/37bb8d5dbb567a207e036.png" width="30" height="30" /><br />
+                        </a>
                     </div>
                 </div>
             )
