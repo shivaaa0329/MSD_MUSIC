@@ -13,7 +13,7 @@ export default class SearchScreen extends React.Component {
         axios.get(`${config.API_URL}/search?query=${new URLSearchParams(this.props.location.search).get('query').replace(/ /gi,"+")}`)
             .then(res => {
                 var songs = res.data;
-                document.title = `${new URLSearchParams(this.props.location.search).get('query')} - Search | Musicder`
+                document.title = `${new URLSearchParams(this.props.location.search).get('query')} - Search | MSD Music`
                 this.setState({ songs });
             })
     }
@@ -58,12 +58,12 @@ export default class SearchScreen extends React.Component {
                     ))}
 
                     <div className="footerdiv">
-                        <img src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" alt="MSD MUSIC" width="230" height="92" />
+                        <img src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" alt="MSD MUSIC" width="92" height="92" />
                         <a className="atextdec" href={`https://telegram.dog/msd_movies`}>
                             <p className="paragone" >This MSD Music services are provided by MSD MOVIES</p>
                         </a><br />
                           <a href="https://telegram.dog/msd_movies">
-    <img alt="Telegram" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/telegram.svg" />
+    <img alt="Telegram" width="30px" src="https://telegra.ph/file/37bb8d5dbb567a207e036.png" />
   </a>
                     </div>
                 </div>
