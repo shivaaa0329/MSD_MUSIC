@@ -36,9 +36,9 @@ export default class PlayScreen extends React.Component {
                 var song = res.data;
                 this.setState({ song });
                 if (song.result === "false") {
-                    document.title = `Error | Musicder`
+                    document.title = `Error | MSD Music`
                 } else {
-                    document.title = `${song.song} by ${song.singers} | Musicder`
+                    document.title = `${song.song} by ${song.singers} | MSD Music`
                 }
             })
     }
@@ -63,11 +63,11 @@ export default class PlayScreen extends React.Component {
                     <div className="playhead">
                         <h1 className="playheadplay">Play</h1>
                         <Link to="../">
-                            <img src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" alt="MSD_MUSIC" width="60" height="60" />
+                            <img src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" alt="MSD_MUSIC" width="50" height="50" />
                         </Link>
                     </div>
                     <div className="playcontent"><br /><br />
-                        <img src={this.state.song.image} alt={this.state.song.song} className="playimage" width="75%" />
+                       <img alt="MSD Music" src="https://telegra.ph/file/6b6f1926afdbe148291cf.png" className="playlogobtn" width="60" height="60" />
                         <h1 className="playsongname">{this.state.song.song}</h1>
                         <p className="playsongby">{this.state.song.singers}</p>
                         <audio src={this.state.song.media_url} id="audiocontrols" className="playsong" controls />
@@ -82,12 +82,12 @@ export default class PlayScreen extends React.Component {
                         {this.state.lyrics}
                     </div>
                     <div className="footer">
-                        <h1 className="playlogo">MUSICDER</h1> <br />
+                        <h1 className="playlogo">MSD Music</h1> <br />
                         <a className="atextdec" href={`https://telegram.dog/msd_movies`}>
                             <p className="playparagone" >This Msd Music is provided by MSD MOVIES</p>
                         </a><br />
-                        <a href={`https://github.com/shivaaa0329/MSD_MUSIC`}>
-                            <img alt="Github" className="center" src="../img/github-black.svg" width="30" height="30" /><br />
+                        <a href={`https://telegram.dog/msd_movies`}>
+                            <img alt="Telegram" className="center" src="https://telegra.ph/file/37bb8d5dbb567a207e036.png" width="30" height="30" /><br />
                         </a>
                     </div>
                     <MediaSession
