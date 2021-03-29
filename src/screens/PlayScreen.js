@@ -83,8 +83,8 @@ export default class PlayScreen extends React.Component {
                     </div>
                     <div className="footer">
                         <h1 className="playlogo">MSD Music</h1> <br />
-                        <a className="atextdec" href={`https://telegram.dog/msd_movies`}>
-                            <p className="playparagone" >This Msd Music is provided by MSD MOVIES</p>
+                        <a className="atextdec" href={`https://www.instagram.com/shivaaa029/`}>
+                            <p className="playparagone" >This Msd Music is provided by Shivaaa029</p>
                         </a><br />
                         <a href={`https://telegram.dog/msd_movies`}>
                             <img alt="Telegram" className="center" src="https://telegra.ph/file/37bb8d5dbb567a207e036.png" width="30" height="30" /><br />
