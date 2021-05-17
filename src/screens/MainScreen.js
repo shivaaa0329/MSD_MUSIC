@@ -41,6 +41,12 @@ export default class MainScreen extends React.Component {
                         </div>
                     </form>
                 </div>
+<div class="content flex">
+        <p>
+          © msd 2021 All Rights Reserved. <br />Made With
+          <span class="love">❤️</span> in India
+        </p>
+      </div>
             </div>
         )
     }
