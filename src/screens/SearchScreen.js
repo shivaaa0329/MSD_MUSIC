@@ -66,6 +66,12 @@ export default class SearchScreen extends React.Component {
                             <img alt="Telegram" className="center" src="https://telegra.ph/file/37bb8d5dbb567a207e036.png" width="30" height="30" /><br />
                         </a>
                     </div>
+<div class="content flex">
+        <p>
+          © music 2021 All Rights Reserved. <br />Made With
+          <span class="love">❤️</span> in India
+        </p>
+      </div>
                 </div>
             )
         }
